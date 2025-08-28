@@ -21,7 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex; /*added this*/
-  
+  gap: 20px;
+  padding: 20px;
 }
 
 .header {
@@ -33,6 +34,11 @@ body {
 .head-close {
   display: flex;
   justify-content: space-between;
+}
+
+/*added this*/
+.text {
+  margin: 10px 0;
 }
 
 
